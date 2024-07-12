@@ -20,6 +20,6 @@ const divide = (arr, n) => {
 
   return result;
 };
-
+const arr = [1, 2, 3, 4, 1, 0, 2, 2];
 const n = parseInt(prompt("Enter n: "), 10);
 alert(JSON.stringify(divide(arr, n)));
